@@ -14,7 +14,7 @@ st.title("🔧 Ticket-System")
 
 with st.form("ticket_form", clear_on_submit=True):
     name = st.text_input("Name / Wohneinheit")
-    kategorie = st.selectbox("Anliegen", ["Licht", "Wasser", "Heizung", "Garten", "Sonstiges"])
+    kategorie = st.selectbox("Anliegen", ["Licht", "Wasser", "Heizung", "Garten", "Test"])
     beschreibung = st.text_area("Beschreibung")
     dringlichkeit = st.select_slider("Dringlichkeit", options=["Normal", "Wichtig", "NOTFALL"])
     
